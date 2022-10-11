@@ -1,2 +1,2 @@
 # beginner-projects
-> ### Here i've added beginner friendly projects made using HTML,CSS & JS.
+> ### Beginner friendly projects made using HTML,CSS & JS.
