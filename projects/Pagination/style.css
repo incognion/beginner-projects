@@ -1,0 +1,101 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*COLOR*/
+/*MAIN COLOR:#087f5b
+GREY COLOR:#343a40
+*/
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+.pagination {
+  margin-top: 200px;
+  display: flex;
+  gap: 12px;
+  font-size: 18px;
+  align-items: center;
+}
+.btn {
+  background-color: #fff;
+  border: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  column-gap: 0;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  cursor: pointer;
+  border: 0.2px solid #087f5b;
+}
+.btn:hover {
+  background-color: #087f5b;
+}
+
+.btn:hover .btn-icon {
+  stroke: #fff;
+}
+
+.btn-icon {
+  stroke: #087f5b;
+  height: 24px;
+  width: 24px;
+}
+.btn-link {
+  width: 36px;
+  height: 36px;
+}
+.btn-link:link,
+.btn-link:visited {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #343a40;
+}
+
+.btn-link:hover,
+.btn-link:active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #087f5b;
+  color: #fff;
+
+  border-radius: 50%;
+}
+.btn-link:nth-child(4) {
+  background-color: #087f5b;
+  border: 0.2px solid #087f5b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #087f5b;
+  color: #fff;
+  border-radius: 50%;
+}
+/* .btn--right {
+  right: 0;
+  transform: translate(50%, -50%);
+}
+.btn--left {
+  left: 0;
+  transform: translate(-50%, -50%);
+} */
